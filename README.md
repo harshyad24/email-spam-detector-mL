@@ -89,7 +89,17 @@ The model achieved **perfect classification** on unseen test data—an exciting 
 
 We extracted the most influential words using model coefficients. Here's what we discovered:
 
-#### 🔴 Top Spam Words:
+# 🔴 Top Spam Words:
+
+
+
+![Spam Word Cloud](https://github.com/harshyad24/email-spam-detector-mL/blob/main/spam_wordcloud.png?raw=true)
+
+
+
+
+
+
 
 ```
 new, account, login, delayed, click, offer, claim, urgent
@@ -97,7 +107,9 @@ new, account, login, delayed, click, offer, claim, urgent
 
 These words convey urgency or deceit—common in scam emails.
 
-#### 🟢 Top Ham Words:
+# 🟢 Top Ham Words:
+
+![Ham Word Cloud](https://github.com/harshyad24/email-spam-detector-mL/blob/main/ham_wordcloud.png?raw=true)
 
 ```
 software, team, thank, feedback, meeting, project, reminder
